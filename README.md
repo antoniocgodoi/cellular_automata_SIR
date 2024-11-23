@@ -1,7 +1,7 @@
 # cellular_automata_SIR
 Stochastic Cellular Automata SIR epidemic model in Python
 
-This software simulates the dynamics of a Susceptible-infected-recovered (SIR) epidemic model by means of stochastic cellular automata.
+This software simulates the dynamics of a susceptible-infected-recovered (SIR) epidemic model by means of stochastic cellular automata.
 
 The cell is represented by a Class named "cell", and each one can be instantiated with "c = cell("X")", where "X" is the initial state {"S", "I" or "R"}
 After creating the cells, each one should be assigned a list of neighbor cells, by using "c.neighbors = [c1, c2, ..., cn]".
